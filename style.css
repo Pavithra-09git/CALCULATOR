@@ -3,9 +3,14 @@ html{
   background-image: url(edit\ uploaded\ image\ .png);
   background-size: cover;
   background-repeat: no-repeat;
-background-size: cover;
-background-position: center;
-height: 100%;
+  max-height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+
+ 
 }
 
 
@@ -19,8 +24,10 @@ width: 500px;
 height: 700px;
 
 
-margin-left: 650px;
-margin-top: 150px;
+
+
+/* margin-left: 650px;
+margin-top: 150px; */
 
 border-radius: 10px;
 
@@ -162,11 +169,15 @@ body{
 .calc{
  margin: 0 auto;
 
-
+ 
 }
 .main-body{
   margin-top: 27em;
- 
+}
+html,body{
+  background-size: cover;
+background-position: center;
+height: 100%;
 }
 
 
